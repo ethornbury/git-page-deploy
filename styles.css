@@ -1,0 +1,89 @@
+/*
+comment
+selector{
+	property: value;
+	property: value;
+}
+font-family: 'Piedra', cursive;
+font-family: 'Roboto', sans-serif;
+*/
+
+body{
+	background-image: url("images/back-unsplash2.jpg");
+	background-color: #f2f2f2;
+	color: #0d0d0d;
+	padding: 30px; 
+	text-align: center;
+	height: 800px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+	font-family: 'Roboto', sans-serif;
+}
+
+img{
+	margin-left: auto; /* center */
+	margin-right: auto;
+	border: 2px solid #00ccff; /* border */
+	padding: 5px; /* nicer border */
+	border-radius: 50%; /* rounded edge */
+	box-shadow: 0 0 10px 5px rgba(0, 140, 186, 0.5);
+	margin-bottom: 50px; 
+}
+
+p{
+	text-align: center;
+}
+h1{
+	text-align: center;
+	font-family: 'Piedra', cursive; /* using google font */
+}
+
+/* anchor tag to look like a button */
+a{
+	display: inline;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+	padding: 15px;
+	background-color: white;
+	box-shadow: 0 0 10px 5px rgba(0, 140, 186, 0.5);
+	width: 50%;
+	text-decoration: none; /* nderline off */
+}
+a, li, iframe {
+	border-radius:5px;
+}
+
+ul{
+	list-style-type: none;
+}
+li{
+	display: inline;
+	margin: 5px;
+}
+
+.hot{
+	background-color:orange;
+	padding: 10px;
+	border: 2px solid black;
+}
+.cool{
+	background-color:#aee239;
+	padding: 10px;
+	border: 2px solid black;
+	
+}
+.burn{
+	background-color:red;
+	padding: 10px;
+	border: 2px solid black;
+}
+
+input{
+	background-color: white;
+	border-radius:5px;
+	box-shadow: 0 0 10px 5px rgba(0, 140, 186, 0.5);
+}
+
+

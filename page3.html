@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> DU website  </title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Piedra&family=Roboto&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<h1>Emer's Website</h1>
+		<ul>
+			<li> <a href="index.html">Home</a>	</li>
+			<li> <a href="page3.html">And More</a> </li>
+			<li><a href="https://avatarmaker.com/" target="_blank"> Make your own avatar</a></li>
+		
+		</ul>
+		<h1>And still more</h1>
+		<img src="images/myAvatar.png" alt="image of an avatar of female">
+		<h3> Everything you need to know! </h3>
+
+		
+		<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+		<p> hover over an item to see how hot it is</p>
+		<ul class="list">
+			<li class="cool">burger</li>
+			<li class="cool" id="cool" onmouseover="spice()" onmouseout="reset()">veg curry</li>
+			<li class="cool " id="nope" onmouseover="spice()" onmouseout="reset()">vindaloo</li>
+			<li class="cool">chips</li>
+		</ul>
+		<br>
+		
+		<input type="button" value="click to see spicey options" onclick="spice()">
+		<input type="button" value="reset" onclick="reset()">
+		<script>
+			//var elem1 = document.getElementById("one");
+			//elem1.className="green";
+			//elem1.replace("dog", "cat");
+			
+			function spice(){				
+				var spicey = document.getElementById("cool");
+				var serious = document.getElementById("nope");
+				spicey.className='burn';
+				serious.className = 'burn';
+				document.getElementById("nope").innerHTML = "you are too young for this option!";
+
+			}
+			function reset(){
+				var spicey = document.getElementById("cool");
+				var serious = document.getElementById("nope");
+				spicey.className='cool';
+				serious.className = 'cool';
+				document.getElementById("nope").textContent = "vindaloo";
+			} 
+			
+		 </script>
+	</body>
+</html>
